@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ninja</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        section{
+            pad: 60px 0;
+        }
+    </style>
+</head>
+<body>
+   <!-----navbar------>
+   <section>
+   <nav class="navbar navbar-expand-md navbar light">
+    <div class="container-xxl">
+        <a href="#intro" class="navbar-brand">
+            <i class="bi bi-book-half"></i>
+            <span class="fw-bold text-secondary">Think Like a Monk</span>
+        </a>
+        <!-----toggle button for mobile nav--------->
+
+        <button class="navbar-toggler" type="button"
+        data-bs-toggle="collapse" data-bs-target="#main-nav"
+        aria-controls="main-nav" aria-expanded="false" aria-label="toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+
+        </button>
+        <!------navbar links-------------->
+        <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="#topics" class="nav-link">About the Book</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#reviews" class="nav-link">Review</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Get in Touch</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#pricing" class="nav-link">Pricing</a>
+                </li>
+                <li class="nav-item ms-2 d-done d-md-inline">
+                    <a class="btn btn-secondary" href="#pricing">Buy Now</a>
+                </li>
+            </ul>
+        </div>
+
+
+
+    </div>
+   </nav>
+   </section>
+
+   
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <!----main image and intro-------->
+   <section id="intro">
+    <div class="container-lg m-lg-5 p-lg-5">
+        <div class="row justify-content align-item-center">
+            <div class="col-md-5 text-center text-md-start">
+                <h1>
+                    <div class="display-3">Think Like a Monk</div>
+                    <div class="display-5">Best choice of the life</div>
+                </h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit eaque deleniti itaque cumque quo corrupti alias ducimus fugit.</p>
+                <a href="#pricing" class="btn btn-secondary btn-lg">Buy Now</a>
+                <a class="d-block mt-3" data-bs-toggle="offcanvas" href="#sidebar" role="button" aria-controls="sidebar">
+                    Explore my other books
+                  </a>
+                
+
+
+            </div>
+            
+            <div class="col-md-5 text-center d-none d-md-block">
+                <span class="tt" data-bs-placement="top" title="Book Cover">
+                
+                    <img class="img-fluid" src="images/book1.webp" alt="Book">
+                </span>
+                
+                
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+   </section>
+
+   <!-----About the book--------->
+   <section id="topics">
+    <div class="container-md ">
+        <div class="text-center">
+            <h2>Inside the Book</h2>
+            <p class="lead text-muted">A Quick glance at the Chapters</p>
+        </div>
+        <div class="row my-5 g-5 justify-content-around align-items-center">
+            <div class="col-6 col-lg-4">
+                <img src="images/book2.jpeg" alt="e-book" class="img-fluid">
+            </div>
+            <div class="col-lg-6">
+        
+        <div class="accordion" id="chapter">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#chapter1" aria-expanded="true" aria-controls="chapter1">
+                  Chapter 1-IDENTITY
+                </button>
+              </h2>
+              <div id="chapter1" class="accordion-collapse collapse " data-bs-parent="#chapter">
+                <div class="accordion-body">
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit nisi omnis voluptate odio hic accusamus consequuntur exercitationem atque consequatur magni. Perspiciatis aliquid vitae provident magni repudiandae tempore labore voluptates repellendus!</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum aut beatae tenetur, natus deleniti dignissimos aliquam, ipsum necessitatibus eveniet nihil saepe, ut nam qui vel! Inventore facilis voluptatem corporis ipsa!</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#chapter2" aria-expanded="false" aria-controls="chapter2">
+                  Chapter 2-NEGATIVITY
+                </button>
+              </h2>
+              <div id="chapter2" class="accordion-collapse collapse" data-bs-parent="#chapter">
+                <div class="accordion-body">
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab quod ratione maxime sed sequi aspernatur nesciunt recusandae veritatis, officia praesentium omnis iusto delectus, facere est accusamus odit tempora labore architecto.</p>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab quod ratione maxime sed sequi aspernatur nesciunt recusandae veritatis, officia praesentium omnis iusto delectus, facere est accusamus odit tempora labore architecto.</p>
+
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#chapter3" aria-expanded="false" aria-controls="chapter3">
+                  Chapter3-FEAR
+                </button>
+              </h2>
+              <div id="chapter3" class="accordion-collapse collapse" data-bs-parent="#chapter">
+                <div class="accordion-body">
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum odit corporis, veritatis reprehenderit nemo sunt atque repellat voluptatibus, nostrum doloremque commodi optio iure? Deserunt excepturi aliquam saepe eius, veniam voluptatum.</p>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum odit corporis, veritatis reprehenderit nemo sunt atque repellat voluptatibus, nostrum doloremque commodi optio iure? Deserunt excepturi aliquam saepe eius, veniam voluptatum.</p>
+
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#chapter4" aria-expanded="false" aria-controls="chapter4">
+                    Chapter 4-INTENTION
+                  </button>
+                </h2>
+                <div id="chapter4" class="accordion-collapse collapse" data-bs-parent="#chapter">
+                  <div class="accordion-body">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab quod ratione maxime sed sequi aspernatur nesciunt recusandae veritatis, officia praesentium omnis iusto delectus, facere est accusamus odit tempora labore architecto.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab quod ratione maxime sed sequi aspernatur nesciunt recusandae veritatis, officia praesentium omnis iusto delectus, facere est accusamus odit tempora labore architecto.</p>
+  
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#chapter5" aria-expanded="false" aria-controls="chapter5">
+                    Chapter 5-MEDITATION
+                  </button>
+                </h2>
+                <div id="chapter5" class="accordion-collapse collapse" data-bs-parent="#chapter">
+                  <div class="accordion-body">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab quod ratione maxime sed sequi aspernatur nesciunt recusandae veritatis, officia praesentium omnis iusto delectus, facere est accusamus odit tempora labore architecto.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab quod ratione maxime sed sequi aspernatur nesciunt recusandae veritatis, officia praesentium omnis iusto delectus, facere est accusamus odit tempora labore architecto.</p>
+  
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#chapter6" aria-expanded="false" aria-controls="chapter6">
+                    Chapter 6-PURPOSE
+                  </button>
+                </h2>
+                <div id="chapter6" class="accordion-collapse collapse" data-bs-parent="#chapter">
+                  <div class="accordion-body">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab quod ratione maxime sed sequi aspernatur nesciunt recusandae veritatis, officia praesentium omnis iusto delectus, facere est accusamus odit tempora labore architecto.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab quod ratione maxime sed sequi aspernatur nesciunt recusandae veritatis, officia praesentium omnis iusto delectus, facere est accusamus odit tempora labore architecto.</p>
+  
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#chapter7" aria-expanded="false" aria-controls="chapter7">
+                    Chapter 7-Dharma is of the body
+                  </button>
+                </h2>
+                <div id="chapter7" class="accordion-collapse collapse" data-bs-parent="#chapter">
+                  <div class="accordion-body">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab quod ratione maxime sed sequi aspernatur nesciunt recusandae veritatis, officia praesentium omnis iusto delectus, facere est accusamus odit tempora labore architecto.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab quod ratione maxime sed sequi aspernatur nesciunt recusandae veritatis, officia praesentium omnis iusto delectus, facere est accusamus odit tempora labore architecto.</p>
+  
+                  </div>
+                </div>
+              </div>
+          </div>
+          </div>
+
+
+
+
+
+
+
+
+    </div>
+
+   </section>
+
+   <!---------Reviews------------->
+   <section id="reviews" class="bg-light">
+    <div class="container-lg p-5">
+        <div class="text-center">
+            
+            <h2><i class="bi bi-stars"></i>Book Review</h2>
+            <p class="lead">What others have said about the book</p>
+        </div>
+
+        <div class="row justify-content-center my-5">
+            <div class="col-lg-8">
+                <div class="list-group">
+                    <div class="list-group-item py3">
+                        <div class="pb-2">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <h5 class="mb-1">Practical Wisdom:</h5>
+                        <p class="mb-1">"Think Like a Monk" excels in translating ancient monk principles into practical advice for modern living. Shetty’s ability to distill profound wisdom into everyday practices makes this book an invaluable guide for anyone seeking to integrate mindfulness and purpose into their daily routine.</p>
+                        <small>Review by Mario</small>
+                    </div>
+                    <div class="list-group-item py3">
+                        <div class="pb-2">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <h5 class="mb-1">Modern Relevance:</h5>
+                        <p class="mb-1">The relevance of monk teachings in today’s fast-paced world is brilliantly showcased in "Think Like a Monk." Shetty adapts timeless principles to address contemporary challenges, making the wisdom of the monks accessible and applicable to our everyday lives.</p>
+                        <small>Review by Ann</small>
+                    </div>
+                    <div class="list-group-item py3">
+                        <div class="pb-2">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <h5 class="mb-1">Engaging Storytelling:</h5>
+                        <p class="mb-1">Jay Shetty’s engaging storytelling is a highlight of "Think Like a Monk." His use of personal anecdotes and relatable experiences brings the teachings to life, making complex concepts easy to understand and deeply resonant.</p>
+                        <small>Review by Jeran</small>
+                    </div>
+                    <div class="list-group-item py3">
+                        <div class="pb-2">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <h5 class="mb-1">Actionable Exercises:</h5>
+                        <p class="mb-1">One of the standout features of "Think Like a Monk" is its actionable exercises. Shetty provides practical meditations and exercises that are easy to incorporate into daily life, helping readers actively work towards achieving peace and clarity.</p>
+                        <small>Review by Sushila</small>
+                    </div>
+                    <div class="list-group-item py3">
+                        <div class="pb-2">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-half"></i>
+                        </div>
+                        <h5 class="mb-1">Clarity and Purpose:</h5>
+                        <p class="mb-1">"Think Like a Monk" is a powerful guide for anyone seeking clarity and purpose in their life. Shetty’s insights and advice help readers navigate their inner world, making it easier to find direction and meaning amidst the chaos of modern life.</p>
+                        <small>Review by David</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+    </div>
+</section>
+
+<!--------Get in touch----------->
+<section id="contact">
+    <div class="container-lg p-5">
+        <div class="text-center">
+            <h2>Get in touch</h2>
+            <p class="lead">Questions to ask? Fill out the form to contact me directly</p>
+        </div>
+        <div class="row justify-content-center my-5">
+            <div class="col-lg-6">
+                <form>
+                    <label for="email" class="form-lable">Email Address:</label>
+                    <div class="input-group mb-4">
+                        <span class="input-group-text">
+                            <i class="bi bi-envelope-fill"></i>
+                        
+                        </span>
+
+                    
+                    <input type="email" class="form-control" id="email" placeholder="e.g.mario@example.com" >
+                    <span class="input-group-text">
+                    <span class="tt" data-bs-placement="right" title="Enter a valid email address we can reply to">
+                        <i class="bi bi-question-circle text-muted"></i>
+                    </span>
+                    </span>
+                        
+                    
+                    </div>
+
+                    <label for="name" class="form-lable">Name</label>
+                    <div class="mb-4 input-group">
+                        <span class="input-group-text">
+                            <i class="bi bi-person-fill"></i>
+                        </span>
+                    <input type="text" class="form-control" id="name" placeholder="mario">
+                    <span class="input-group-text">
+                        
+                        <span class="tt" data-bs-placement="right" title="Enter your name:">
+                            <i class="bi bi-question-circle text-muted"></i>
+                        </span>
+                    </span>
+                    </div>
+
+                    <label for="subject" class="form-lable">What is your question about?</label>
+                    <div class="mb-4 input-group">
+                        <span class="input-group-text">
+                            <i class="bi bi-chat-left-dots-fill"></i>
+                        </span>
+                    <select class="form-select" id="subject">
+                        <option value="pricing" selected>Pricing Query</option>
+                        <option value="content" selected>Content Query</option>
+                        <option value="other" selected>Other Query</option>
+                    </select>
+                    </div>
+                    <div class="form-floating mb-4 mt-5">
+                        <textarea  class="form-control" id="query" style="height: 140px;" cols="30" rows="10"></textarea>
+                        <label for="query">Your query...</label>
+                    </div>
+                    <div class="mb-4 text-center">
+                        <button type="submit" class="btn btn-secondary">Submit</button>
+                    </div>
+
+
+
+
+                </form>
+            </div>
+        </div>
+</div>
+</section>
+<!------Modals------->
+<section class="bg-light">
+    <div class="container p-5">
+        <div class="text-center">
+            <h2>Stay in the loop</h2>
+            <p class="lead">Get the latest updates as they happen</p>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-8 text-center">
+                <p class="text-muted my-4">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. In architecto illo obcaecati assumenda reiciendis quis similique, earum rem ipsa velit quam quaerat ab deleniti rerum aperiam soluta eum cupiditate corporis.
+                </p>
+                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#reg-modal">Register for Updates</button>
+            </div>
+        </div>
+    </div>
+</section>
+<!------modal itself------->
+<div class="modal fade" id="reg-modal" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="modal-title">Get the latest update</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, perferendis?</p>
+          <label class="form-lable" for="modal-email">Your email address:</label>
+          <input class="form-control" type="email" id="modal-email" placeholder="e.g.mario@example.com">
+
+        </div>
+        <div class="modal-footer">
+          
+          <button type="button" class="btn btn-primary">submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+   <!-----pricing card section------>
+   <section id="pricing" class="bg-light mt-5">
+    <div class="container-lg">
+        <div class="text-center">
+            <h2>Pricing plans</h2>
+            <p class="lead text-muted">Choose a pricing plan to suit you</p>
+
+        </div>
+        <div class="row my-5 justify-content-center align-item-center g-0">
+            <div class="col-8 col-lg-4 col-xl-3">
+                <div class="card border-0">
+                    <div class="card-body text-center py-4">
+                        <h4 class="card-title">Starter Edition</h4>
+                        <p class="lead-card-subtitle">eBook download only</p>
+                        <p class="display-5 my-4 text-primary fw-bold">$12.99</p>
+                        <p class="card-text mx-5 text-muted d-done d-lg-block">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit incidunt eveniet, minima quos sequi officiis recusandae quo blanditiis deserunt odit.</p>
+                        <a href="#" class="btn btn-outline-primary btn-lg mt-3">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-9 col-lg-4 ">
+                <div class="card border-primary border-2">
+                    <div class="card-header text-center text-primary">Most Popular</div>
+                    <div class="card-body text-center py-5">
+                        
+                        <h4 class="card-title">Most popular</h4>
+                        <p class="lead-card-subtitle">eBook download & all updates</p>
+                        <p class="display-4 my-4 text-primary fw-bold">$18.99</p>
+                        <p class="card-text mx-5 text-muted d-done d-lg-block">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit incidunt eveniet, minima quos sequi officiis recusandae quo blanditiis deserunt odit.</p>
+                        <a href="#" class="btn btn-outline-primary btn-lg mt-3">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-8 col-lg-4 col-xl-3">
+                <div class="card border-0">
+                    <div class="card-body text-center py-4">
+                        <h4 class="card-title">Ultimate Edition</h4>
+                        <p class="lead-card-subtitle">eBook download, updates & etra</p>
+                        <p class="display-5 my-4 text-primary fw-bold">$24.99</p>
+                        <p class="card-text mx-5 text-muted d-done d-lg-block">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit incidunt eveniet, minima quos sequi officiis recusandae quo blanditiis deserunt odit.</p>
+                        <a href="#" class="btn btn-outline-primary btn-lg mt-3">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+</div>
+</section>
+
+
+
+     
+      
+      <div class="offcanvas offcanvas-start" tabindex="-1" id="sidebar" aria-labelledby="sidebar-lable">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="sidebar-lable">Jey Shetti's other Books</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt pariatur distinctio nam ab, molestias soluta nemo officiis vel, corrupti, voluptatibus a neque? Asperiores consequuntur suscipit similique quia exercitationem ad obcaecati.</p>
+          </div>
+          <div class="dropdown mt-3">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" id="book-dropdown">
+              Other Books
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="book-dropdown">
+              <li><a class="dropdown-item" href="#">When</a></li>
+              <li><a class="dropdown-item" href="#">The Motivation Myth</a></li>
+              <li><a class="dropdown-item" href="#">Unshakeable</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <script>
+            const tooltips=document.querySelectorAll('.tt') 
+            tooltips.forEach(t=>{
+                new bootstrap.Tooltip(t)
+            })
+        </script>
+    
+</body>
+</html>
